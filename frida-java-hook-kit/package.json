@@ -1,0 +1,39 @@
+{
+  "name": "frida-java-hook-kit",
+  "version": "1.0.0",
+  "description": "High-throughput batch Java hooking layer for Frida, with caching, overload resolution and reduced JS round-trips",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "docs",
+    "examples"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "bench": "node bench/run.js",
+    "lint": "eslint src"
+  },
+  "keywords": [
+    "frida",
+    "frida-java-bridge",
+    "android",
+ "reverse-engineering",
+    "hooking"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "frida-java-bridge": ">=7.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.20.0",
+    "neostandard": "^0.12.1"
+  }
+}

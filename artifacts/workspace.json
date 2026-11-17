@@ -1,0 +1,17 @@
+{
+  "root": "/home/dev/feedback/uid23358",
+  "B": "/home/dev/feedback/uid23358",
+  "sha": "790e720b0aef82a9798abd4d37409c5006f9fd7f",
+  "wslDistro": "Ubuntu-26.04",
+  "source": {
+    "owner": "frida",
+    "repo": "frida",
+    "sha": "790e720b0aef82a9798abd4d37409c5006f9fd7f"
+  },
+  "fork": {
+    "owner": "Rrr119",
+    "repo": "frida",
+    "cloneUrl": "https://github.com/Rrr119/frida.git"
+  },
+  "at": "2026-11-17T17:37:18.356Z"
+}
